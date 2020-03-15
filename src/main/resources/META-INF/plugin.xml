@@ -13,7 +13,11 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <applicationService
+          serviceInterface="dev.alexengrig.intellij.resttime.service.RestTimeService"
+          serviceImplementation="dev.alexengrig.intellij.resttime.service.MyRestTimeService"
+          id="MyRestTimeService"
+        />
     </extensions>
 
     <actions>
