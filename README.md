@@ -1,0 +1,1 @@
+# Rest time IntelliJ plugin
